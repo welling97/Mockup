@@ -29,6 +29,7 @@ body{
     font-family: 'Arial';
     margin-top: -300px;
     font-size: 100%;
+    
 }
 
 #navbar1 ul {
@@ -42,6 +43,7 @@ position: relative;
     width:200px !important;
     float: left;
     font-size: 19px;
+   
     
 }
 
@@ -54,6 +56,7 @@ position: relative;
 
 #navbar1 ul li a:hover {
     color: black;
+    
 }
 
 #navbar2 {
@@ -62,6 +65,7 @@ position: relative;
     justify-content: center !important;
     margin-right: auto;
     margin-left: auto;
+    
 }
 #navbar2 ul{
     margin: 0;
@@ -88,15 +92,14 @@ position: relative;
     margin-top: -3% !important;
     width: 100% !important;
     height: 50px !important;
-    margin-top: -20px !important;
+    
 
 }
 
 #click {
     height: 50px !important;
     font-size: 30px !important;
-    border-radius: 100px !important;
-    background-color: #003bdd !important;   
+    border-radius: 100px !important;  
     text-align: center !important;
     justify-content: center !important;
     display: flex !important;
