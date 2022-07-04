@@ -75,12 +75,12 @@ position: relative;
     text-align: center;
 }
 
-#navbar2  li a {
-    padding: 15px !important;
+#navbar2 a {
+    padding: 87px !important;
     display:block !important;
     text-decoration: none !important;
     text-align: center !important;
-    margin-top: -100px !important;
+    margin-top: -200px !important;
     
 }
 
