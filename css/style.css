@@ -58,12 +58,13 @@ background-color:rgb(223, 204, 204);
     margin-top: -1px !important;
     font-size:40px !important;
     justify-content: center !important;
+    border-radius: 300px !important;
 }
 #navbar2 ul{
     margin: 0;
     list-style: none;
     position: relative;
-    color: white;
+    color: white
 }
 
 #navbar2 ul li {
@@ -71,7 +72,7 @@ background-color:rgb(223, 204, 204);
     height: 200px;
     float: left;
     text-align: center;
-    background-color: rgb(0, 110, 255);
+    background-color: rgb(8, 60, 235);
     margin-top: -100px;
 }
 
@@ -81,6 +82,8 @@ background-color:rgb(223, 204, 204);
     text-decoration: none !important;
     text-align: center !important;
     margin-top: 100% !important;
+    border-radius: 100px !important;
+    display: block;
 }
 
 #navbar3 {
@@ -98,9 +101,9 @@ background-color:rgb(223, 204, 204);
     display: flex !important;
     margin-right: auto !important;
     margin-left: auto !important;
-    background-color: #0000ff !important;
+    background-color: #fff !important;
     text-decoration: none !important;
-    display: block;
+    display: block !important;
 }
 
 .nav-container {
