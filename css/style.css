@@ -1,7 +1,7 @@
-.navbar1 navbar bg-primary {
-    width: 500px;
-    height: 500px;
-    display: flex;
+.contaainer1{
+    width: 1000px !important;
+    height: 1000px !important;
+    display: flex !important;
 }
 
 body{
@@ -10,10 +10,9 @@ body{
 }
 
 #img1 {
-    width: 400px !important;
+    width: 500px !important;
     height:500px !important;
     float:left !important;
-
 }
 
 #img2 {
@@ -29,7 +28,6 @@ body{
     font-family: 'Arial';
     margin-top: -300px;
     font-size: 100%;
-    
 }
 
 #navbar1 ul {
@@ -43,8 +41,7 @@ position: relative;
     width:200px !important;
     float: left;
     font-size: 19px;
-   
-    
+   margin-left: 200px;
 }
 
 #navbar1  a {
@@ -63,9 +60,8 @@ position: relative;
     margin-top: -1px !important;
     font-size:40px !important;
     justify-content: center !important;
-    margin-right: auto;
-    margin-left: auto;
-    
+    margin-right: auto !important;
+    margin-left: auto !important 
 }
 #navbar2 ul{
     margin: 0;
@@ -74,26 +70,26 @@ position: relative;
 }
 
 #navbar2 ul li {
-    width: 200px;
+    width: 400px;
+    height: 200px;
     float: left;
     text-align: center;
+    background-color: rgb(0, 110, 255);
+    margin-top: -100px;
 }
 
-#navbar2 a {
+#navbar2 a span {
     padding: 87px !important;
     display:block !important;
     text-decoration: none !important;
     text-align: center !important;
-    margin-top: -200px !important;
-    
+    margin-top: 100% !important;
 }
 
 #navbar3 {
-    margin-top: -3% !important;
-    width: 100% !important;
-    height: 50px !important;
-    
-
+    margin-top: 70px !important;
+    width:1000px !important;
+    height: 40px !important;
 }
 
 #click {
@@ -105,7 +101,23 @@ position: relative;
     display: flex !important;
     margin-right: auto !important;
     margin-left: auto !important;
+    background-color: #0000ff !important;
+    text-decoration: none !important;
+    display: block;
+}
 
+.nav-container {
+    width:700px !important;
+    margin-top: 60px !important;
+    height:400px !important;
+}
+
+#navbar4 {
+    width:400px !important;
+    display: flex !important;
+    float: left;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 
