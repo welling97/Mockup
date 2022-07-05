@@ -1,7 +1,6 @@
-.contaainer1{
-    width: 1000px !important;
-    height: 1000px !important;
-    display: flex !important;
+.container1{
+    width: 100%;
+
 }
 
 body{
@@ -10,7 +9,7 @@ body{
 }
 
 #img1 {
-    width: 500px !important;
+    width: 400px !important;
     height:500px !important;
     float:left !important;
 }
@@ -22,12 +21,12 @@ body{
 }
 
 #navbar1{
-    width: 100%;
+    width: 900px;
     height: 100px;
-    background-color: white;
+    background-color: #8080806b;
     font-family: 'Arial';
     margin-top: -300px;
-    font-size: 100%;
+    font-size: 100px;
 }
 
 #navbar1 ul {
@@ -107,20 +106,21 @@ position: relative;
 }
 
 .nav-container {
-    width:700px !important;
-    margin-top: 60px !important;
-    height:400px !important;
-    margin: 90px 90px 90px
+    width:700px;
+    margin-top: 60px;
+    height:400px;
+    margin: -100px -100px 100px;
 }
 
-#navbar4 {
-    width:9% !important;
-    display: flex !important;
-    float: left;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    margin-inline-end: auto;
+.nav-container{
+    margin-top: -27% !important;
+
 }
-
-
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    width: 20%;
+    margin-left: 50% !important;
+    height: 33px;
+}
 
