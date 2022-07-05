@@ -38,9 +38,9 @@ position: relative;
 }
 
 #navbar1 ul li {
-    width:200px !important;
-    float: left;
-    font-size: 19px;
+    width:300px !important;
+    float: left !important;
+    font-size: 29px;
    margin-left: 200px;
 }
 
@@ -110,14 +110,16 @@ position: relative;
     width:700px !important;
     margin-top: 60px !important;
     height:400px !important;
+    margin: 90px 90px 90px
 }
 
 #navbar4 {
-    width:400px !important;
+    width:9% !important;
     display: flex !important;
     float: left;
     margin-left: auto !important;
     margin-right: auto !important;
+    margin-inline-end: auto;
 }
 
 
