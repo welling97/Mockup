@@ -23,7 +23,7 @@ body{
 #navbar1{
     width: 900px;
     height: 100px;
-    background-color: #8080806b;
+    background-color: rgb(247, 236, 236);
     font-family: 'Arial';
     margin-top: -300px;
     font-size: 100px;
@@ -33,6 +33,7 @@ body{
 margin: 0;
 list-style: none;
 position: relative;
+background-color:rgb(223, 204, 204);
 
 }
 
@@ -48,24 +49,21 @@ position: relative;
   display: block;
   text-decoration: none;
   text-align: center;
+  color: black;
 }
 
-#navbar1 ul li a:hover {
-    color: black;
-    
-}
+
 
 #navbar2 {
     margin-top: -1px !important;
     font-size:40px !important;
     justify-content: center !important;
-    margin-right: auto !important;
-    margin-left: auto !important 
 }
 #navbar2 ul{
     margin: 0;
     list-style: none;
     position: relative;
+    color: white;
 }
 
 #navbar2 ul li {
