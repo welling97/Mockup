@@ -1,5 +1,5 @@
 .container1{
-    width: 200% !important;
+    width:200% !important;
 
 }
 
@@ -7,25 +7,30 @@ body{
     margin: 0;
     padding: 0;
 }
-
-#img1 {
+.carrousel01 {
     width: 400px !important;
-    height:500px !important;
+    height:200px !important;
     float:left !important;
 }
-
-#img2 {
-    width: 500px !important;
-    height: 500px !important;
+.carrousel02 {
+    width: 200px !important;
+    height: 600px !important;
     float:right !important;
 }
 
+.carrousel03 {
+    width: 400px !important;
+    height: 600px !important;
+    float:right !important;
+   
+}
+
 #navbar1{
-    width: 900px;
+    width: 400px;
     height: 100px;
     background-color: rgb(243, 243, 243);
     font-family: 'Arial';
-    margin-top: -300px;
+    margin-top: 10px;
     font-size: 100px;
 }
 
@@ -38,9 +43,10 @@ background-color:rgb(223, 204, 204);
 }
 
 #navbar1 ul li {
-    width:300px !important;
+    width:200px !important;
+    height: 100px;
     float: left !important;
-    font-size: 29px;
+    font-size: 20px;
    margin-left: 200px;
 }
 
@@ -56,9 +62,9 @@ background-color:rgb(223, 204, 204);
 
 #navbar2 {
     margin-top: -1px !important;
-    font-size:40px !important;
+    font-size:20px !important;
     justify-content: center !important;
-    border-radius: 300px !important;
+    border-radius: 100px !important;
 }
 #navbar2 ul{
     margin: 0;
@@ -68,12 +74,12 @@ background-color:rgb(223, 204, 204);
 }
 
 #navbar2 ul li {
-    width: 400px;
-    height: 200px;
+    width:200px;
+    height: 100px;
     float: left;
     text-align: center;
     background-color: #083ceb;
-    margin-top: -100px;
+    margin-top: -29px;
 }
 
 #navbar2 a span {
@@ -140,15 +146,44 @@ background-color:rgb(223, 204, 204);
 }
 
 .navbar6 {
-    height:300% !important;
+    height:100px !important;
     width: 500px !important;
-    margin-top: -10% !important;
+    margin-top: -6.5% !important;
     margin-left: 900px !important;
 }
 
-.div header {
-    width: 400px;
-    height: 500px;
+.header1  {
+    width:800px;
+    height: 900px;
+    margin-bottom: 90px;
+    margin: 8px 10px 20px 30px;
+}
 
-    
+.header2 {
+    width: 600px;
+    height: 800px;
+    margin-bottom: 80%;
+    margin: 8px 20px 40px 30px;
+}
+
+.card01 {
+    margin-right: 20px;
+    justify-content:space-between;
+    height: 100px;
+    width: 800px;
+    margin:20px 10px 30px 20px;
+    float: right;
+    margin-right:570px; 
+}
+
+.card02 {
+    margin-right: 20px;
+    justify-content:space-between;
+    height: 100px;
+    width: 600px;
+    float: left;
+    margin-bottom: 80% !important;
+    margin-top: -27% !important;
+    margin:20px 10px 30px 20px;
+    position: absolute;
 }
