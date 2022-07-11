@@ -4,54 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <!--1º propriedade:
-    flex-direction: row;
-    sentido linha horizontal, será eixo principal.
+    <section class="container">
+    <img src="img/TI.jpg"  alt="imagem TI">
+    <div class="Logo">Logo</div>
+    </section> 
 
-    flex-derection: row-reverse;
-    sentido linha vai ser reversa (vertical)
-
-    flex-direction: column;
-        mudar eixo principal sentido 
-        de organizado em colunas.
-    
-    flex-direction: column-reverse;
-    vai mudar ordem organização 
-    das colunas ultimo será 
-    primeiro e primeiro será ultimo.-->
-
-    <!--2º Propriedade
-    Justify-content: flex-start;
-    agrupados no lado esquerdo do eixo principal.
-
-    justify-content: flex-end;
-    agrupados no lado direito da pagina.
-
-    justify-content: center;
-    agrupar elementos no centro do eixo principal
-
-    justify-content: space-between;
-    distribuir os elementos ao longo do eixo principal,
-colocando 1º elemento noinicio do eixo, 
-2 elemento no centro eixo e 3 elemento sepre no final.
-
-    justufy-content: space-around;
-    -->
-
-    <!--3º propriedade:-->
-    <!--display_flex: indentificar que 
-    a tag vai ser o container de flexbox.-->
-
-    <!-- Flex-direction: identificar
-    qual vai ser o eixo principal e perpendicular-->
-
-    <!-- Justify-content: alinhar os elementos 
-    no eixo principal-->
-
-    <!-- align-items: alinhar os elementos no eixo
-    perpendicular.-->
+    <section>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel carousel01">
+            <div class="carousel-inner" style="width: 40rem">
+              <div class="carousel-item active">
+                <img src="img/tecnologia.jpg" class="d-block " style="width: 400px"  alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/images.jfif" class="d-block " style="width: 400px"  alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/ticeec.jpg" class="d-block " style="width: 400px" alt="..." >
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
 </body>
 </html>
