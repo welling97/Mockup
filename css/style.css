@@ -1,5 +1,7 @@
+
 .container {
-    width:400px;
+    width:640px !important;
+    height: 877px !important;
     margin: 0;
     padding: 0;
     position: relative;
@@ -19,6 +21,42 @@
     font-size: 20px;
 }
 
-.carousel01 {
-    height: 605px;
+#carousel01 {
+    height:640px !important;
+    max-width:100% !important;
+    margin-left:640px;
+    margin-top: -55% !important;
+}
+
+.navbar01 a {
+    align-items: center !important;
+    justify-content: space-between !important;
+    font-size: 20px;
+    margin-left: 7rem;
+    padding: 10px;
+}
+
+.navbar02 a{
+    align-items: center;
+    justify-content: space-between;
+    font-size: 40px;
+    margin: 0;
+    margin-left: 7rem;
+    padding: 10px;
+    border-style: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    background: #fff;
+    color: blue;
+}
+
+.card01 {
+    margin-top: 400px;
+    width: 400px;
+}
+
+.card02 {
+    margin-top: 400px;
+    width: 400px;
+    margin-left: 200px;
 }
