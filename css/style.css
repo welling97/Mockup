@@ -84,23 +84,25 @@ html, body {
 }
 
 .borda04 {
-    margin-top: 5%;
+    margin-top: 77px;
     width: 800px;
     margin-left: 700px;
     position: absolute;
 }
 
 .card03 {
-    margin-top: -1px;
+    margin-top: 1px;
     width: 600px;
     margin-right: 600px;
+    
     
 }
 
 .card04 {
-    margin-top: -80px;
+    margin-top: -84px;
     width: 800px;
     margin-left: 700px;
+    position: relative;
 }
 
 footer {
