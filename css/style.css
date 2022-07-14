@@ -1,17 +1,32 @@
 html, body {
     min-height: 100%;
+    
+
+    
 }
 .container {
     width:640px !important;
     height: 877px !important;
     margin: 0;
-    padding: 0;
+    padding: 0 ;
     position: relative;
     color: #fff;
+    max-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
 }
-.container img {
+.img {
     width: 100%;
+    height: 100%;
+    max-width: 960px;
+    max-height: 600px;
+
+    object-fit: cover;
+    object-position: bottom;
 }
+
 
 .Logo {
     position: absolute;
@@ -21,22 +36,23 @@ html, body {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     font-size: 20px;
+    
 }
 
 #carousel01 {
     height:640px !important;
-    width:820px !important;
+    width:200em!important;
     margin-left:640px;
-    margin-top: -40% !important;
+    margin-top: -60% !important;
 }
 
 .navbar01 a {
-    align-items: center !important;
+    align-items:center !important;
     justify-content: space-between !important;
-    font-size: 20px;
-    margin-left: 200px;
-    padding: 10px;
-    margin-top: px;
+    font-size: 20px !important;
+    margin-left: 200px !important;
+    padding: 10px !important;
+    margin-top: 20px !important;
 }
 
 .navbar02 a{
