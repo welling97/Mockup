@@ -53,30 +53,29 @@ html, body {
 }
 
 .card01 {
-    margin-top: 100px;
+    margin-top: 500px;
     width: 500px;
     margin-right: 20em;
-    height: 200px;
+    padding-left: 20px;
 }
 
 .card02 {
-    margin-top: 200px;
+    margin-top:400px;
     width: 500px;
     margin-right: 600px;
+    padding-left: 20px;
 }
 
 .card03 {
-    margin-top:-9px;
-    width: 800px;
-    margin-left: 900px;
-   height: 90px;
+    margin-top:-160px;
+    width:500px;
+    margin-left: 800px;
 }
 
-.card04 {
-    margin-top: -642px;
-    width: 850px;
+.card04  {
+    margin-top: -697px;
+    width: 500px;
     margin-left: 800px;
-    height: 200px;
 }
 
 
