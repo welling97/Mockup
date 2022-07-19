@@ -37,7 +37,7 @@
 #carousel01 {
     height:667px !important;
     width:900px!important;
-    margin-left:540px;
+    margin-left:440px;
     margin-top: -60% !important;
     display: flex;
     flex-direction: column;
@@ -50,6 +50,11 @@
     margin-top:-1rem!important;
 }
 
+.info01{
+    color: #0dcaf0;
+}
+
+
 .container02 a{
     align-items: center;
     justify-content: space-between;
@@ -58,7 +63,6 @@
     margin-left: 70px;
     padding: 0px;
     border-style: 2px;
-    border-style: solid;
     border-radius: 50%;
     background: #fff;
 }
