@@ -1,11 +1,8 @@
-ul {
-    list-style: none;
-    display: flex;
-}
+
 
 .container {
-    width:640px !important;
-    height: 877px !important;
+    width:540px !important;
+    height: 777px !important;
     margin: 0;
     padding: 0 ;
     position: relative;
@@ -38,10 +35,12 @@ ul {
 }
 
 #carousel01 {
-    height:640px !important;
-    width:200em!important;
-    margin-left:640px;
+    height:667px !important;
+    width:900px!important;
+    margin-left:540px;
     margin-top: -60% !important;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar01 a {
@@ -51,7 +50,7 @@ ul {
     margin-top:-1rem!important;
 }
 
-.navbar02 a{
+.container02 a{
     align-items: center;
     justify-content: space-between;
     font-size: 40px;
